@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended: true}))
 const sessionStore = new MySQLStore({}, db);
 app.use(session({
 	key: 'session_cookie',
-	secret: process.env.SESSION_SECRET,
+	secret: 8502646425,
 	store: sessionStore,
 	resave: false,
 	saveUninitialized: false,
