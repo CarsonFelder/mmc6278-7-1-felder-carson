@@ -31,7 +31,9 @@
     "express-handlebars": "^6.0.6",
     "express-mysql-session": "^2.1.8",
     "express-session": "^1.17.3",
-    "mysql2": "^2.3.3"
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.35.1",
+    "serve-favicon": "^2.5.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.13.0",
